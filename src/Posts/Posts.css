@@ -1,0 +1,36 @@
+.Posts{
+    width:100%;
+    border: 1px solid #dee2e6;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+.table-bordered td {
+    
+    border: 1px solid #dee2e6;
+}
+
+table.table-sm th, table.table-sm td {
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    border: 1px solid #dee2e6;
+}
+
+table.table td {
+    padding-top: 1.1rem;
+    padding-bottom: 1rem;
+}
+.table-sm td {
+    padding: .3rem;
+}
+
+table.dataTable thead {
+    cursor: pointer;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,0.05);
+}
